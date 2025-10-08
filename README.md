@@ -15,6 +15,22 @@ winget install 7zip.7zip
 winget install Microsoft.VisualStudioCode
 winget install Google.PlatformTools
 winget install VideoLAN.VLC
+
+code --install-extension ms-azuretools.vscode-containers
+code --install-extension msgithub.vscode-github-actions
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension mhutchie.git-graph
+code --install-extension github.copilot
+code --install-extension codezombiech.gitignore
+code --install-extension heaths.vscode-guid
+code --install-extension ms-vscode.makefile-tools
+code --install-extension neogrup.neodev
+code --install-extension alefragnani.numbered-bookmarks
+code --install-extension mohsen1.prettify-json
+code --install-extension ms-mssql.mssql
+code --install-extension redhat.vscode-xml
+code --install-extension golang.go
+code --install-extension mechatroner.rainbow-csv
 ```
 
 ### Databases
