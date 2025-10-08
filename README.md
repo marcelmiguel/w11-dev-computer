@@ -6,14 +6,13 @@ Guide to install a windows 11 dev machine and some extras
 wsl --install
 wsl --install Ubuntu
 winget install -e --id Google.Chrome --accept-package-agreements --accept-source-agreements
-winget install Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements
 winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
-winget install -e --id RARLab.WinRAR --accept-package-agreements --accept-source-agreements
 winget install -e --id Docker.DockerDesktop --accept-package-agreements --accept-source-agreements
 winget install -e --id Notepad++.Notepad++ --accept-package-agreements --accept-source-agreements
 winget install -e --id Kubernetes.kubectl --accept-package-agreements --accept-source-agreements
 winget install -e --id Python.Python.3.12 --accept-package-agreements --accept-source-agreements
 winget install -e --id 7zip.7zip --accept-package-agreements --accept-source-agreements
+winget install Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements
 ```
 
 ### Databases
