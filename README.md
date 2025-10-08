@@ -19,14 +19,14 @@ winget install VideoLAN.VLC
 
 ### Databases
 ``` powershell
-winget install -e --id MongoDB.Compass.Full
-winget install -e --id Microsoft.SQLServerManagementStudio
+winget install MongoDB.Compass.Full
+winget install Microsoft.SQLServerManagementStudio
 ```
 
 ### Languages
 ``` powershell
-winget install -e --id OpenJS.NodeJS.LTS
-winget install -e --id ArduinoSA.IDE.stable
+winget install OpenJS.NodeJS.LTS
+winget install ArduinoSA.IDE.stable
 ```
 
 Manual install
@@ -37,15 +37,18 @@ Install Flutter manually
 
 ### Others
 ``` powershell
-winget install -e --id OpenVPNTechnologies.OpenVPNConnect
-winget install -e --id Oracle.VirtualBox
+winget install OpenVPNTechnologies.OpenVPNConnect
+winget install Oracle.VirtualBox
 ```
+
 Manual install
+``` powershell
 k9s
+```
 
 ### Games
 ``` powershell
-winget install -e --id Valve.Steam --accept-package-agreements --accept-source-agreements
+winget install Valve.Steam
 ```
 
 ### Configuration
