@@ -5,39 +5,43 @@ Guide to install a windows 11 dev machine and some extras
 ``` powershell
 wsl --install
 wsl --install Ubuntu
-winget install -e --id Google.Chrome --accept-package-agreements --accept-source-agreements
-winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
-winget install -e --id Docker.DockerDesktop --accept-package-agreements --accept-source-agreements
-winget install -e --id Notepad++.Notepad++ --accept-package-agreements --accept-source-agreements
-winget install -e --id Kubernetes.kubectl --accept-package-agreements --accept-source-agreements
-winget install -e --id Python.Python.3.12 --accept-package-agreements --accept-source-agreements
-winget install -e --id 7zip.7zip --accept-package-agreements --accept-source-agreements
-winget install Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements
+winget install Google.Chrome
+winget install Git.Git
+winget install Docker.DockerDesktop
+winget install Notepad++.Notepad++
+winget install Kubernetes.kubectl
+winget install Python.Python.3.12
+winget install 7zip.7zip
+winget install Microsoft.VisualStudioCode
+winget install Google.PlatformTools
+winget install VideoLAN.VLC
 ```
 
 ### Databases
 ``` powershell
-winget install -e --id MongoDB.Compass.Full --accept-package-agreements --accept-source-agreements
-winget install -e --id Microsoft.SQLServerManagementStudio --accept-package-agreements --accept-source-agreements
+winget install -e --id MongoDB.Compass.Full
+winget install -e --id Microsoft.SQLServerManagementStudio
 ```
 
 ### Languages
 ``` powershell
-winget install -e --id OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements
+winget install -e --id OpenJS.NodeJS.LTS
 winget install -e --id ArduinoSA.IDE.stable
 ```
 
+Manual install
 ``` notes
 Install legacy Golang 1.19.13 from go.dev./dl/
 Install Flutter manually
-Install adb (Android)
 ```
 
 ### Others
 ``` powershell
-winget install -e --id OpenVPNTechnologies.OpenVPNConnect --accept-package-agreements --accept-source-agreements
+winget install -e --id OpenVPNTechnologies.OpenVPNConnect
 winget install -e --id Oracle.VirtualBox
 ```
+Manual install
+k9s
 
 ### Games
 ``` powershell
