@@ -49,4 +49,4 @@ winget install -e --id Valve.Steam --accept-package-agreements --accept-source-a
 - git config --global user.email "your.email@example.com"
 - Copy workspaces to local and clone repos
 - Copy .kubectl file
-- sshkeys
+- sshkeys + .config file
