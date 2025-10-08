@@ -26,9 +26,12 @@ winget install -e --id Microsoft.SQLServerManagementStudio --accept-package-agre
 winget install -e --id OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements
 winget install -e --id ArduinoSA.IDE.stable
 ```
+
+``` notes
 Install legacy Golang 1.19.13 from go.dev./dl/
 Install Flutter manually
 Install adb (Android)
+```
 
 ### Others
 ``` powershell
