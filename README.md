@@ -39,11 +39,7 @@ Install Flutter manually
 ``` powershell
 winget install OpenVPNTechnologies.OpenVPNConnect
 winget install Oracle.VirtualBox
-```
-
-Manual install
-``` powershell
-k9s
+wingetr install Derailed.k9s
 ```
 
 ### Games
