@@ -1,5 +1,5 @@
 # w11-dev-computer
-Script to install a windows 11 dev machine and some extras
+Guide to install a windows 11 dev machine and some extras
 
 ### Basic 
 ``` powershell
@@ -25,12 +25,16 @@ winget install -e --id Microsoft.SQLServerManagementStudio --accept-package-agre
 ### Languages
 ``` powershell
 winget install -e --id OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements
+winget install -e --id ArduinoSA.IDE.stable
 ```
 Install legacy Golang 1.19.13 from go.dev./dl/
+Install Flutter manually
+Install adb (Android)
 
 ### Others
 ``` powershell
 winget install -e --id OpenVPNTechnologies.OpenVPNConnect --accept-package-agreements --accept-source-agreements
+winget install -e --id Oracle.VirtualBox
 ```
 
 ### Games
@@ -38,7 +42,9 @@ winget install -e --id OpenVPNTechnologies.OpenVPNConnect --accept-package-agree
 winget install -e --id Valve.Steam --accept-package-agreements --accept-source-agreements
 ```
 
-### Steps
+### Configuration
 - git config --global user.name "Your Name"
 - git config --global user.email "your.email@example.com"
 - Copy workspaces to local and clone repos
+- Copy .kubectl file
+- sshkeys
