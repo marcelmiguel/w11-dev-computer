@@ -48,12 +48,14 @@ winget install Microsoft.SQLServerManagementStudio
 ``` powershell
 winget install OpenJS.NodeJS.LTS
 winget install ArduinoSA.IDE.stable
+npm install -g polymer-cli
 ```
 
-Manual install
+Manual install / legacy
 ``` notes
 Install legacy Golang 1.19.13 from go.dev./dl/
 Install Flutter manually
+npm install -g polymer-cli
 ```
 
 ### Others
