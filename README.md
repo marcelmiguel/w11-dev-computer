@@ -15,6 +15,7 @@ winget install 7zip.7zip
 winget install Microsoft.VisualStudioCode
 winget install Google.PlatformTools
 winget install VideoLAN.VLC
+winget install -e --id GnuWin32.Make
 
 code --install-extension ms-azuretools.vscode-containers
 code --install-extension msgithub.vscode-github-actions
@@ -31,6 +32,10 @@ code --install-extension ms-mssql.mssql
 code --install-extension redhat.vscode-xml
 code --install-extension golang.go
 code --install-extension mechatroner.rainbow-csv
+code --install-extension neonxp.gotools
+
+go install github.com/go-delve/delve/cmd/dlv@latest
+
 ```
 
 ### Databases
@@ -69,3 +74,5 @@ winget install Valve.Steam
 - Copy workspaces to local and clone repos
 - Copy .kubectl file
 - sshkeys + .config file
+- go private
+- 
