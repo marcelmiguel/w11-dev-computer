@@ -16,6 +16,7 @@ winget install Microsoft.VisualStudioCode
 winget install Google.PlatformTools
 winget install VideoLAN.VLC
 winget install -e --id GnuWin32.Make
+winget install OpenJS.NodeJS.LTS
 
 code --install-extension ms-azuretools.vscode-containers
 code --install-extension msgithub.vscode-github-actions
@@ -46,9 +47,7 @@ winget install Microsoft.SQLServerManagementStudio
 
 ### Languages
 ``` powershell
-winget install OpenJS.NodeJS.LTS
 winget install ArduinoSA.IDE.stable
-npm install -g polymer-cli
 ```
 
 Manual install / legacy
@@ -77,4 +76,3 @@ winget install Valve.Steam
 - Copy .kubectl file
 - sshkeys + .config file
 - go private
-- 
