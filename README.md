@@ -35,7 +35,7 @@ code --install-extension golang.go
 code --install-extension mechatroner.rainbow-csv
 code --install-extension neonxp.gotools
 
-go install github.com/go-delve/delve/cmd/dlv@latest
+go install github.com/go-delve/delve/cmd/dlv@v1.9.1
 
 ```
 
@@ -55,6 +55,7 @@ Manual install / legacy
 Install legacy Golang 1.19.13 from go.dev./dl/
 Install Flutter manually
 npm install -g polymer-cli
+go env -w GOPRIVATE=github.com/<my-org>
 ```
 
 ### Others
@@ -75,4 +76,3 @@ winget install Valve.Steam
 - Copy workspaces to local and clone repos
 - Copy .kubectl file
 - sshkeys + .config file
-- go private
