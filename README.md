@@ -56,6 +56,7 @@ Install https://www.msys2.org/:
   - pacman -s make
   - set to path C:\msys64\usr\bin
 Install Flutter manually
+'Set-ExecutionPolicy RemoteSigned -Scope CurrentUser' (for npm)
 npm install -g polymer-cli
 go env -w GOPRIVATE=github.com/<my-org>
 ```
