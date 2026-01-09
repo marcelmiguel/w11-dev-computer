@@ -15,7 +15,6 @@ winget install 7zip.7zip
 winget install Microsoft.VisualStudioCode
 winget install Google.PlatformTools
 winget install VideoLAN.VLC
-winget install -e --id GnuWin32.Make
 winget install OpenJS.NodeJS.LTS
 
 code --install-extension ms-azuretools.vscode-containers
@@ -53,6 +52,9 @@ winget install ArduinoSA.IDE.stable
 Manual install / legacy
 ``` notes
 Install legacy Golang 1.19.13 from go.dev./dl/
+Install https://www.msys2.org/:
+  - pacman -s make
+  - set to path C:\msys64\usr\bin
 Install Flutter manually
 npm install -g polymer-cli
 go env -w GOPRIVATE=github.com/<my-org>
