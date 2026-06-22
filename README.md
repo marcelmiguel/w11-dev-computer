@@ -68,6 +68,10 @@ winget install Oracle.VirtualBox
 winget install Derailed.k9s
 ```
 
+
+https://github.com/microsoft/WindowsDeveloperConfig
+https://github.com/raphire/win11debloat
+
 ### Games
 ``` powershell
 winget install Valve.Steam
@@ -79,3 +83,4 @@ winget install Valve.Steam
 - Copy workspaces to local and clone repos
 - Copy .kubectl file
 - sshkeys + .config file
+
