@@ -68,9 +68,9 @@ winget install Oracle.VirtualBox
 winget install Derailed.k9s
 ```
 
-
-https://github.com/microsoft/WindowsDeveloperConfig
-https://github.com/raphire/win11debloat
+### Repos
+- https://github.com/microsoft/WindowsDeveloperConfig
+- https://github.com/raphire/win11debloat
 
 ### Games
 ``` powershell
